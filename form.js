@@ -4,12 +4,8 @@ script.src = 'https://code.jquery.com/jquery-3.6.3.js'; // Check https://jquery.
 document.getElementsByTagName('head')[0].appendChild(script);  
   
   
-  function dostuff(){
-    
-   
-    sendMessage( $('form').serialize() )
-  }
-  function sendMessage() {
+ 
+  function saulify() {
 
     window.location.replace("saul.html");
 
