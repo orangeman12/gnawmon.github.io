@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url("resources/vaporwave.png") no-repeat;
+    background: url("resources/blender/vaporwave_v2_t1.png") no-repeat;
 
     background-size: cover;
      background-repeat: no-repeat;
@@ -36,7 +36,7 @@ h1,h2,h5,p{
     background-color: rgba(0, 0, 0,0.5);
     margin:auto;
     width: 80%;
-    height: auto;
+    height: 100%;
     padding: 10px;
     border-radius: 20px;
     padding-top: 20px;
@@ -154,4 +154,7 @@ input{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+  }
+  .blender{
+    width:100%
   }
